@@ -1,0 +1,390 @@
+/* body: Simple and easy to navigate brand website. Learn and shop around the brand.
+The styles defined below target:
+- Background color: Sets a light grayish orange, which allows customers
+to easily see and browse around the page.
+*/
+body {
+    background-color: #fae5d3; 
+}
+/* h1: Comapny name which is big enough for customers to see
+but does not take over the entire site.
+- Text align: Center
+- Color: Black but not too dark to overpower the page.
+- Opacity: .5 to go with the theme of the entire website.
+Allows customers to want to explore but not be overtaken
+by just the letters on the website. 
+*/
+h1 {
+    text-align: center;
+    color: black;
+    opacity: .5;
+}
+/* table: Apart of the navigation which is located on every page within
+the website.
+- Width: 100% to cover the entire page from left to right.
+- Background color: Light gray so that customers know its apart of 
+the navigation and not just words on the page
+- Color: Black to stand out and allow customers to use it as a guide
+to navigate around the webpages.
+*/
+table.table1 {
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    color: black;
+}
+/* h2: Home page and the start of the website.
+- Text align: Center so that customers know what page they are on.
+- Color: Black to easily see what part of the navigation the customer is on.
+- Opacity: .5 to not overpower the page but still be aware where you are. 
+*/
+h2 {
+    text-align: center;
+    color: black;
+    opacity: .5;
+}
+/* p1: First paragraph on the home page. Gives a short run down of the site.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 30px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 165% so that it is more towards the bottom of the webpage.
+- Left: 50 % so that it is centered on the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p1 {
+    font-family: Lucida Console;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+}
+/* image1: The background image that is used of three of the 5 
+webpages. This is the brand logo.
+- Opacity: .5 set this way to not overpower the website just 
+the other images are set.
+*/
+.image1 {
+    opacity: 0.5;
+}
+/* table2: The footer which is setup similaryly to the 
+navigation bar and is used on every webpage.
+- Width: 100% to cover the entire bottom portion of the
+website.
+- Background color: Light grey to go with the theme of
+the navigation bar.
+- Color: Black to see what part of the footer the customer
+is on.
+*/
+table.table2 {
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    color: black;   
+}
+/* button1: The apparel button which navigates customers
+to the apparel page.
+- Text align: center.
+- Background color: peru which is the color of all buttons within
+the website.
+- Opacity: .5 to continue with the theme.
+- Color: white for easy visibility.
+- Padding: 20px 40pxto evenly spread the button with the open space
+next to the image.
+- Width: 230px for easy visibility.
+- Left: 15% to ensure the button is aligned evenly between the screen
+and image.
+- Top: 30% To align the button with the top of the image.
+- Display: inline block to be appealing to the eye.
+- Cursor: Pointer so that customers know the button leads to another 
+page.
+*/
+a.button1 {
+    text-align: center;
+    background-color: peru;
+    opacity: .5;
+    color: white;
+    padding: 20px 40px;
+    width: 230px;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    cursor: pointer;
+}
+/* button1: The apparel button which navigates customers
+to the apparel page.
+- Text align: center.
+- Background color: peru which is the color of all buttons within
+the website.
+- Opacity: .5 to continue with the theme.
+- Color: white for easy visibility.
+- Padding: 20px 40pxto evenly spread the button with the open space
+next to the image.
+- Width: 230px for easy visibility.
+- Left: 15% to ensure the button is aligned evenly between the screen
+and image.
+- Top: 30% To align the button with the top of the image.
+- Display: inline block to be appealing to the eye.
+- Cursor: Pointer so that customers know the button leads to another 
+page.
+*/
+a.button2 {
+    text-align: center;
+    background-color: peru;
+    opacity: .5;
+    color: white;
+    padding: 20px 40px;
+    width: 230px;
+    position: absolute;
+    left: 85%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/* image2: This is an image of our models wearing the apparel.
+- Opcaity: .5 to continue with the ongoing theme
+- Margin: set to auto to center the image on the webpage
+*/
+.image2 {
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* p2: Second paragraph on the products page.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 00px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 80% so that it is more towards the bottom of the webpage and image.
+- Left: 50% so that it is centered on the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p2 {
+    font-family: Lucida Console;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+}
+/* p3: Third paragraph on the gear page.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 30px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 165% so that it is more towards the bottom of the webpage.
+- Left: 50 % so that it is centered on the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p3 {
+      font-family: Lucida Console;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+}
+/* image2: This is an image of our models wearing the apparel.
+- Opcaity: .5 to continue with the ongoing theme
+- Margin: set to auto to center the image on the webpage
+*/
+.image3 {
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* p4: Fourth paragraph on the apparel page.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 30px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 165% so that it is more towards the bottom of the webpage.
+- Left: 50 % so that it is centered on the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p4 {
+   font-family: Lucida Console;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+}
+/* p5: Fifth paragraph on the about us page. Gives a background about the brand.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 30px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 40% so that it is more towards the top of the webpage.
+- Left: 15% so that it is toward the left of the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p5 {
+    font-family: Lucida Console;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+}
+/* p6: Sixth paragraph on the about us page. Gives a background about the team
+members.
+- Font family: Lucida Console. Appealing to the eye and allows customers to 
+read all paragraphs easily. 
+- Font size: 30px which is big but not too big that it overpowers the entire
+webpage.
+- Font weight: Bold so that it stands out and allows customers to easily read
+without having to increase the font more.
+- Position: Absolute.
+- Top: 40% so that it is more towards the top of the webpage.
+- Left: 15% so that it is toward the left of the webpage.
+- Transofrm: Translate -50% -50% to move the text along the x and y
+axis evenly.
+- Color: A very dark orange. This color is used throughout the
+entire website for an even flow and to look clean.
+*/
+.p6 {
+    font-family: Lucida Console;
+    font-size: 18px;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: #6E2C00;
+    white-space: nowrap;
+}
+/* button3: Button on the support page to open the custom order form.
+- Text align: center
+- Background color: Peru to go along with the other buttons on the site.
+- Opacity: .5 to continue with the website theme.
+- Color: white so that it is easily visible.
+- Padding: 20px 40px to evenly create a big enough button similar to 
+the others within the site.
+- Width: 230px so that the button looks large enough but not overpower
+the page
+- Position: Absolute to position the button properly within the page.
+- Left: 50% so that it is center
+- Top: 30% so that the button starts on the page not too high up.
+- Transform: translate -50% -50% to evenly align the button on the x and y axis
+- Display: inline block to go with the theme of the other buttons within
+the site.
+- Cursor: Pointer so that customers know that it is a clickable button.
+*/
+a.button3 {
+    text-align: center;
+    background-color: peru;
+    opacity: .5;
+    color: white;
+    padding: 20px 40px;
+    width: 230px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    cursor: pointer;
+}
+/* button4: Button on the support page to open the cancel/return order form.
+- Text align: center
+- Background color: Peru to go along with the other buttons on the site.
+- Opacity: .5 to continue with the website theme.
+- Color: white so that it is easily visible.
+- Padding: 20px 40px to evenly create a big enough button similar to 
+the others within the site.
+- Width: 230px so that the button looks large enough but not overpower
+the page
+- Position: Absolute to position the button properly within the page.
+- Left: 50% so that it is center
+- Top: 50% so that the button starts below the top button.
+- Transform: translate -50% -50% to evenly align the button on the x and y axis
+- Display: inline block to go with the theme of the other buttons within
+the site.
+- Cursor: Pointer so that customers know that it is a clickable button.
+*/
+a.button4 {
+    text-align: center;
+    background-color: peru;
+    opacity: .5;
+    color: white;
+    padding: 20px 40px;
+    width: 230px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    cursor: pointer;
+}
+/* button5: Button on the support page to open the cancel/return order form.
+- Text align: center
+- Background color: Peru to go along with the other buttons on the site.
+- Opacity: .5 to continue with the website theme.
+- Color: white so that it is easily visible.
+- Padding: 20px 40px to evenly create a big enough button similar to 
+the others within the site.
+- Width: 230px so that the button looks large enough but not overpower
+the page
+- Position: Absolute to position the button properly within the page.
+- Left: 50% so that it is center
+- Top: 70% so that the button starts below the middle button.
+- Transform: translate -50% -50% to evenly align the button on the x and y axis
+- Display: inline block to go with the theme of the other buttons within
+the site.
+- Cursor: Pointer so that customers know that it is a clickable button.
+*/
+a.button5 {
+    text-align: center;
+    background-color: peru;
+    opacity: .5;
+    color: white;
+    padding: 20px 40px;
+    width: 230px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    cursor: pointer;
+}
